@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Marcos Falconí</title>
+    <link rel="icon" type="image/png" href="img/portafolio.png" />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+  <body>
+    <header class="header" id="head">
+      <nav class="nav-link" aria-label="Navegación principal">
+        <a class="efecto-borde" href="#sobreMi">Sobre mí</a>
+        <a class="efecto-borde" href="#tecnologia">Tecnología</a>
+        <a class="efecto-borde" href="#experiencia">Experiencia</a>
+        <a class="efecto-borde" href="#proyectos">Proyectos</a>
+      </nav>
+    </header>
+
+    <main id="sobreMi">
+      <section class="hero hidden">
+        <div class="hero-top">
+          <div class="hero-text">
+            <h1>Hola! Soy <span class="text-color">Marcos Falconí</span></h1>
+            <h2>Desarrollador de Software · .NET · Full-Stack</h2>
+
+            <p>
+              Desarrollador de Software especializado en el ecosistema .NET, con
+              experiencia en el desarrollo y mantenimiento de aplicaciones
+              empresariales. Conocimientos en ASP.NET y desarrollo de soluciones
+              web. Enfoque en la resolución de problemas, calidad técnica y
+              construcción de software mantenible.
+            </p>
+
+            <div class="hero-botones">
+              <a
+                class="btnt btnt--primary"
+                href="https://wa.me/593994412577?text=Hola%20Marcos%2C%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20contactarte."
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Enviar mensaje por WhatsApp al 099 4412 577"
+              >
+                <svg
+                  class="imagen-icono"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.94C17.55 15.31 18.76 15.51 20 15.51C20.55 15.51 21 15.96 21 16.51V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                099 4412 577
+              </a>
+
+              <a
+                class="btnt"
+                href="https://github.com/MarcFalconV"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir perfil de GitHub de Marcos Falconí"
+              >
+                <img class="imagen-icono" src="img/github.png" alt="GitHub" />
+                GitHub
+              </a>
+
+              <a
+                class="btnt"
+                id="btn-correo"
+                href="mailto:marcos.falconivill@outlook.com?subject=Contacto%20desde%20portafolio"
+                aria-label="Enviar correo a marcos.falconivill@outlook.com"
+              >
+                <img
+                  class="imagen-icono"
+                  src="img/email.png"
+                  alt="Correo electrónico"
+                />
+                <span id="texto-correo">marcos.falconivill@outlook.com</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-image-left hidden">
+            <div class="imagen-wrapper">
+              <img
+                class="imagen"
+                src="img/profile.webp"
+                alt="Foto de perfil de Marcos Falconí"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="formacion" id="formacion">
+        <div class="banner-formacion">
+          <div class="banner-izquierda">
+            <span class="material-symbols-outlined material-color icono"
+              >book</span
+            >
+            <h2>Formación Académica</h2>
+          </div>
+          <div class="banner-derecha">
+            <div class="formacion-contenido">
+              <h5 class="span-color">Formación técnica</h5>
+              <div class="formacion-item">
+                <h4>Bachillerato Técnico en Informática</h4>
+                <p>Formación técnica en informática</p>
+              </div>
+            </div>
+            <div class="formacion-contenido">
+              <h5 class="span-color">Egresado</h5>
+              <div class="formacion-item">
+                <h4>Universidad de Guayaquil</h4>
+                <p>Ingeniería en Software</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tecnologia efecto-borde-section hidden" id="tecnologia">
+        <div class="titulo">
+          <span class="icono material-symbols-outlined">laptop_chromebook</span>
+          <h2>Tecnologías</h2>
+        </div>
+        <div class="banner">
+          <div class="banner-tecnologias">
+            <div class="banner-superior">
+              <div class="tecnologia-item">
+                <h3>Frontend &amp; Lenguajes</h3>
+                <div class="tecnologia-tarjeta">
+                  <div class="imagenes-tarjeta">
+                    <img
+                      class="imagenes-content"
+                      src="img/html.png"
+                      alt="HTML5"
+                    />
+                    <p>HTML5</p>
+                  </div>
+                  <div class="imagenes-tarjeta">
+                    <img
+                      class="imagenes-content"
+                      src="img/css.png"
+                      alt="CSS3"
+                    />
+                    <p>CSS3 · Bootstrap</p>
+                  </div>
+                  <div class="imagenes-tarjeta">
+                    <img
+                      class="imagenes-content"
+                      src="img/js.png"
+                      alt="JavaScript"
+                    />
+                    <p>JavaScript</p>
+                  </div>
+                  <div class="imagenes-tarjeta">
+                    <img
+                      class="imagenes-content"
+                      src="img/ts.png"
+                      alt="TypeScript"
+                    />
+                    <p>TypeScript</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tecnologia-item">
+                <h3>Backend &amp; Arquitectura</h3>
+                <div class="tecnologia-tarjeta">
+                  <div class="imagenes-tarjeta">
+                    <svg
+                      class="imagenes-content"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M16 2L28 9V23L16 30L4 23V9L16 2Z"
+                        fill="#231F20"
+                        stroke="#9B4F96"
+                        stroke-width="2"
+                      />
+                      <path
+                        d="M18.5 11.5C17.2 10.4 15.3 10 13.5 10.5C10.8 11.2 9.2 13.8 9.6 16.7C10 19.6 12.4 21.6 15.3 21.5C17.1 21.4 18.6 20.6 19.5 19.3"
+                        stroke="#C084FC"
+                        stroke-width="2.2"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M21.5 13.5V18.5M19.5 15H23.5M19.5 17H23.5"
+                        stroke="#E9D5FF"
+                        stroke-width="1.6"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                    <p>C#</p>
+                  </div>
+
+                  <div class="imagenes-tarjeta">
+                    <svg
+                      class="imagenes-content"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                    >
+                      <rect
+                        x="3"
+                        y="3"
+                        width="26"
+                        height="26"
+                        rx="6"
+                        fill="#512BD4"
+                      />
+                      <circle cx="9.5" cy="20.5" r="1.8" fill="#FFFFFF" />
+                      <path
+                        d="M14.5 22V11L21.5 22V11"
+                        stroke="#FFFFFF"
+                        stroke-width="2.2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <p>.NET</p>
+                  </div>
+
+                  <div class="imagenes-tarjeta">
+                    <svg
+                      class="imagenes-content"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                    >
+                      <rect
+                        x="3"
+                        y="3"
+                        width="26"
+                        height="26"
+                        rx="6"
+                        fill="#0F172A"
+                        stroke="#38BDF8"
+                        stroke-width="1.8"
+                      />
+                      <path
+                        d="M9 12H23M9 16H19M9 20H21"
+                        stroke="#38BDF8"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                      <circle cx="22.5" cy="20" r="2.2" fill="#34D399" />
+                    </svg>
+                    <p>ASP.NET Core · Web API · MVC</p>
+                  </div>
+
+                  <div class="imagenes-tarjeta">
+                    <svg
+                      class="imagenes-content"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                    >
+                      <ellipse
+                        cx="16"
+                        cy="8.5"
+                        rx="9"
+                        ry="3.5"
+                        fill="#1D4ED8"
+                        stroke="#93C5FD"
+                        stroke-width="1.6"
+                      />
+                      <path
+                        d="M7 8.5V16C7 17.9 11 19.5 16 19.5C21 19.5 25 17.9 25 16V8.5"
+                        stroke="#93C5FD"
+                        stroke-width="1.6"
+                      />
+                      <path
+                        d="M7 16V23.5C7 25.4 11 27 16 27C21 27 25 25.4 25 23.5V16"
+                        stroke="#60A5FA"
+                        stroke-width="1.6"
+                      />
+                    </svg>
+                    <p>Entity Framework · LINQ</p>
+                  </div>
+
+                  <div class="imagenes-tarjeta">
+                    <svg
+                      class="imagenes-content"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                    >
+                      <rect
+                        x="4"
+                        y="5"
+                        width="24"
+                        height="22"
+                        rx="4"
+                        fill="#1E293B"
+                        stroke="#818CF8"
+                        stroke-width="1.8"
+                      />
+                      <path
+                        d="M10.5 16.5L14 20L21.5 12.5"
+                        stroke="#4ADE80"
+                        stroke-width="2.2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <p>
+                      REST API · MVC · MVVM · xUnit · Clean Code · Code Smells
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tecnologia-item">
+                <h3>Bases de Datos y Herramientas</h3>
+                <div class="tecnologia-tarjeta">
+                  <div class="imagenes-tarjeta">
+                    <img
+                      class="imagenes-content bordeado2"
+                      src="img/sqlserve.png"
+                      alt="SQL Server, SQL y T-SQL"
+                    />
+                    <p>SQL Server · SQL · T-SQL</p>
+                  </div>
+                  <div class="imagenes-tarjeta">
+                    <img
+                      class="imagenes-content"
+                      src="img/github2.png"
+                      alt="Git y GitHub"
+                    />
+                    <p>Git · GitHub</p>
+                  </div>
+                  <div class="imagenes-tarjeta">
+                    <img
+                      class="imagenes-content"
+                      src="img/postman.png"
+                      alt="Postman"
+                    />
+                    <p>Postman</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experiencia efecto-borde-section hidden" id="experiencia">
+        <div class="titulo">
+          <span class="material-symbols-outlined material-color icono"
+            >engineering</span
+          >
+          <h2>Experiencia</h2>
+        </div>
+
+        <div class="banner">
+          <div class="experiencia-contenido">
+            <article class="experiencia-item" id="exp-mdev">
+              <span class="span-color">Marzo 2023 – Febrero 2024</span>
+              <h3>Asistente de Desarrollo — MDev</h3>
+              <p>
+                Análisis de requerimientos y resolución de problemas técnicos
+                durante el desarrollo de aplicaciones. Integración de
+                funcionalidades y aplicación de buenas prácticas de desarrollo
+                de software. Trabajo colaborativo y desarrollo de aplicaciones
+                empresariales y tareas de mantenimiento de software.
+              </p>
+            </article>
+
+            <article class="experiencia-item" id="exp-sysecu">
+              <span class="span-color">Febrero 2024 – Enero 2026</span>
+              <h3>Desarrollador de Software — SysEcu</h3>
+              <p>
+                Desarrollo y mantenimiento de sistemas empresariales orientados
+                a la gestión de soporte y operaciones. Implementación de
+                funcionalidades para optimizar procesos, mejorar la gestión de
+                información y facilitar el seguimiento de operaciones. Gestión
+                de información mediante SQL Server y consultas SQL y T-SQL.
+                Resolución de incidencias y mantenimiento de aplicaciones
+                existentes.
+              </p>
+            </article>
+
+            <article
+              class="experiencia-item experiencia-item--destacado"
+              id="exp-ug"
+            >
+              <span class="span-color">Enero 2026 – Julio 2026</span>
+              <h3>
+                Pasante de Desarrollo de Software — Universidad de Guayaquil
+              </h3>
+              <p>
+                Prácticas preprofesionales centradas en el desarrollo de un
+                sistema de soporte para la gestión y seguimiento de incidencias.
+                Implementación de funcionalidades para mejorar la gestión de
+                solicitudes y los procesos de atención, análisis de necesidades,
+                resolución de problemas y mantenimiento de funcionalidades
+                existentes.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="proyectos efecto-borde-section hidden" id="proyectos">
+        <div class="titulo">
+          <span class="material-symbols-outlined icono">work</span>
+          <h2>Proyectos</h2>
+        </div>
+
+        <div class="proyectos-contenido">
+          <div class="proyecto-banner">
+            <article class="proyecto-card">
+              <div class="card-image">
+                <svg
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <rect
+                    x="8"
+                    y="12"
+                    width="48"
+                    height="40"
+                    rx="6"
+                    fill="#101424"
+                    stroke="#38BDF8"
+                    stroke-width="2"
+                  />
+                  <path d="M8 22H56" stroke="#38BDF8" stroke-width="2" />
+                  <circle cx="15" cy="17" r="2" fill="#F87171" />
+                  <circle cx="21" cy="17" r="2" fill="#FBBF24" />
+                  <circle cx="27" cy="17" r="2" fill="#34D399" />
+                  <path
+                    d="M18 32L24 38L34 28"
+                    stroke="#4ADE80"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M38 33H48M38 39H45"
+                    stroke="#93C5FD"
+                    stroke-width="2.2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <div class="card-content">
+                <h3>Sistema de Gestión de Incidencias</h3>
+                <p>
+                  Sistema de soporte para la gestión, seguimiento de incidencias
+                  y atención de solicitudes, desarrollado durante las prácticas
+                  preprofesionales en la Universidad de Guayaquil.
+                </p>
+                <div class="proyecto-tags">
+                  <span>ASP.NET Core</span>
+                  <span>C#</span>
+                  <span>SQL Server</span>
+                  <span>REST API</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="proyecto-card">
+              <div class="card-image">
+                <svg
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <ellipse
+                    cx="32"
+                    cy="18"
+                    rx="18"
+                    ry="6"
+                    fill="#1E3A8A"
+                    stroke="#60A5FA"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M14 18V32C14 35.3 22.1 38 32 38C41.9 38 50 35.3 50 32V18"
+                    stroke="#60A5FA"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M14 32V46C14 49.3 22.1 52 32 52C41.9 52 50 49.3 50 46V32"
+                    stroke="#38BDF8"
+                    stroke-width="2"
+                  />
+                  <circle cx="43" cy="26" r="2" fill="#34D399" />
+                  <circle cx="43" cy="40" r="2" fill="#34D399" />
+                </svg>
+              </div>
+              <div class="card-content">
+                <h3>Sistemas Empresariales — SysEcu</h3>
+                <p>
+                  Aplicaciones empresariales orientadas a soporte y operaciones
+                  con consultas SQL/T-SQL en SQL Server, optimización de
+                  procesos y mantenimiento evolutivo.
+                </p>
+                <div class="proyecto-tags">
+                  <span>.NET</span>
+                  <span>SQL Server</span>
+                  <span>T-SQL</span>
+                  <span>Entity Framework</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="proyecto-card proyecto-card--destacado">
+              <div class="card-image">
+                <svg
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <rect
+                    x="10"
+                    y="14"
+                    width="44"
+                    height="36"
+                    rx="6"
+                    fill="#101424"
+                    stroke="#818CF8"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M25 27L19 32L25 37"
+                    stroke="#A5B4FC"
+                    stroke-width="2.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M39 27L45 32L39 37"
+                    stroke="#A5B4FC"
+                    stroke-width="2.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M34 25L30 39"
+                    stroke="#38BDF8"
+                    stroke-width="2.2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <div class="card-content">
+                <h3>Aplicaciones Empresariales — MDev</h3>
+                <p>
+                  Integración de funcionalidades, análisis de requerimientos,
+                  resolución técnica y mantenimiento de software bajo buenas
+                  prácticas de desarrollo.
+                </p>
+                <div class="proyecto-tags">
+                  <span>ASP.NET MVC</span>
+                  <span>TypeScript</span>
+                  <span>Clean Code</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="modal">
+        <div class="modal__container">
+          <h2 class="modal__title"></h2>
+          <p class="modal__paragraph"></p>
+          <button class="modal__close">Cerrar</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Marcos Falconí · Desarrollador de Software (.NET / Full-Stack)</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
